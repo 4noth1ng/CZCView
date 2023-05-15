@@ -1,8 +1,8 @@
 <template>
   <div>
-    <ea-button />
+    <ea-button type="primary">主要按钮</ea-button>
+    <ea-button>default</ea-button>
   </div>
 </template>
-<script lang="ts" setup>
-import { Button } from "@QRView/components";
-</script>
+<script lang="ts" setup></script>
+<style></style>

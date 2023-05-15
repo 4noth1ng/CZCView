@@ -6,16 +6,17 @@
   "scripts": {
     "dev": "vite",
     "test": "echo \"Error: no test specified\" && exit 1"
-    
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.2.2",
+    "unplugin-vue-components": "^0.24.1",
     "vite": "^4.3.5"
   },
   "dependencies": {
-    "@QRView/components": "workspace:^"
+    "@QRView/components": "workspace:^",
+    "@QRView/qr": "workspace:^"
   }
 }
