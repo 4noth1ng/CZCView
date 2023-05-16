@@ -2,12 +2,19 @@
   "compilerOptions": {
     "baseUrl": ".",
     "jsx": "preserve",
-    "strict": true,
-    "target": "ES2015",
-    "module": "ESNext",
+    "strict": false,
+    "target": "es2020",
+    "module": "commonjs",
     "skipLibCheck": true,
     "esModuleInterop": true,
     "moduleResolution": "Node",
-    "lib": ["esnext", "dom"]
-  }
+    "lib": ["esnext", "dom"],
+    "rootDir": ".",
+    // "rootDirs": ["./", "./packages", "./packages/components"],
+    "paths": {
+      "@/*": ["packages/components/src/*"],
+      "utils/*": ["packages/utils/*"]
+    }
+  },
+  "exclude": ["node_modules", "**/*.tsx"]
 }

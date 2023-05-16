@@ -47,7 +47,6 @@ export default defineConfig({
   },
   plugins: [
     vue(),
-    vueJsx(),
     dts({
       entryRoot: './src/',
       outputDir: ['../QRView/es/src', '../QRView/lib/src'],
