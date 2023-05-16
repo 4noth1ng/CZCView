@@ -1,4 +1,4 @@
-import _Button from './button.vue'
+import _Button from './src/button.vue'
 // import type { App, Plugin } from "vue";
 // type SFCWithInstall<T> = T & Plugin;
 // const withInstall = <T>(comp: T) => {

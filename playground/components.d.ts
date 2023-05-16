@@ -10,5 +10,6 @@ export {}
 declare module '@vue/runtime-core' {
   export interface GlobalComponents {
     EaButton: typeof import('@QRView/qr/es')['Button']
+    HButton: typeof import('@QRView/qr/es')['Button']
   }
 }
